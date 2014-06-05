@@ -9,7 +9,7 @@
 // startup. Implementation of an idea by Prof Braino to inform user that any changes made to this
 // build by the user have been successfully uploaded into firmware.
 #define STRING_VERSION_CONFIG_H __DATE__ " " __TIME__ // build date and time
-#define STRING_CONFIG_H_AUTHOR "Version 14.04.1" // Who made the changes.
+#define STRING_CONFIG_H_AUTHOR "V 14.04.1-stevegt2" // Who made the changes.
 
 // SERIAL_PORT selects which serial port should be used for communication with the host.
 // This allows the connection of wireless adapters (for instance) to non-default port pins.
@@ -38,7 +38,7 @@
 // 65 = Azteeg X1
 // 7  = Ultimaker
 // 71 = Ultimaker (Older electronics. Pre 1.5.4. This is rare)
-// 72 = Ultiboard v2.0
+// 72 = Ultiboard v2.0 (includes Ultimaker 2)
 // 77 = 3Drag Controller
 // 8  = Teensylu
 // 80 = Rumba
