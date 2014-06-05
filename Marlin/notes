@@ -1,0 +1,22 @@
+
+firmware 14.03:
+===============
+
+bed height grounded: 27.4
+bed height after first G28:  30.1
+bed height after second (and later) G28: 29.4 
+
+
+firmware 14.04.1-stevegt1:
+==========================
+
+bed height grounded: 27.4
+bed height after first (and later) G28:  29.4
+
+bed height when switch opens (moving upward):  30.1
+bed height when switch closes (moving downward):  29.4
+
+Am able to home, then M18, push bed down, M17, then G1 F10 Z205; e.g.
+limit switch closed doesn't prevent Z move.
+
+
