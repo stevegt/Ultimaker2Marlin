@@ -5,7 +5,7 @@
 # Arduino adaptation by mellis, eighthave, oli.keller
 # Marlin adaption by Daid
 #
-# This has been tested with Arduino 0022.
+# This has been tested with Arduino 1.0.1.
 #
 # This makefile allows you to build sketches from the command line
 # without the Arduino environment (or Java).
